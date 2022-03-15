@@ -1,0 +1,29 @@
+{
+  "name": "meisendev/laravel-daemon",
+  "type": "library",
+  "description": "Runs as sentinel for a list of daemon commands",
+  "keywords": [
+    "laravel",
+    "framework",
+    "daemon",
+    "sentinel",
+    "console"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "meisen",
+      "email": "meisendev@163.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "ext-pcntl": "*",
+    "laravel/framework": "^5.1 || ^6.0 || ^7.0 || ^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Meisendev\\LaravelDaemon\\": "src/"
+    }
+  }
+}
